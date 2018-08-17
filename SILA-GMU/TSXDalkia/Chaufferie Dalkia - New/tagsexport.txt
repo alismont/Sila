@@ -1,0 +1,340 @@
+﻿sm_Temp_a2	%MW494	REAL	"animation supervision : T° aller compteur 2"	
+Ia3_6_ERR	%I0.3.6.ERR	BOOL		
+Voie0_sts_in_progr	%MW0.0.0.0.0	BOOL	"Echange de mots de status en cours"	
+CV904_AI	%IW0.3.6.0	INT	"Mesure position vanne by_pass (Ex PCV9410)"	
+Sd_ch0	%MW61.10	BOOL	"Défaut voie 0"	
+Sd_ia_3_5	%MW60.6	BOOL	"Défaut voie 5"	
+V_cumul2	%MW384	INT	"Tableau de réception de la requête modbus lecture : volume cumule"	
+T_exchg_dw22	%MW230	INT		
+Exchg_iw3_2	%MW142	INT		
+MW131	%MW131	INT	"Table d'échange API<-->API Sila résultat lecture double mots compteur calec"	
+T_exchg_b1	%MW120	INT	"Table d'échange API<-->API Sila résultat lecture bits compteur calec"	
+T_exchg_b1_3	%MW120	ARRAY[0..2] OF INT		
+CV904_Out_Max	%MW15	INT	"Limite superieure de la sortie"	
+MD130	%MW130	DINT		
+MW385	%MW385	INT		
+MW231	%MW231	INT		
+Voie0_command_in_progr	%MW0.0.0.0.1	BOOL	"Echange d'une commande en cours"	
+CV904_AO	%QW0.4.0.0	INT	"Sortie vanne by_pass Echangeurs (Ex PCV9410 regul. Delta P)"	
+Ia3_7_ERR	%I0.3.7.ERR	BOOL		
+I_Fuite_reseau_chaleur	%I0.2.1	EBOOL	"1=DETECTION FUITE EAU RESEAU CHALEUR COTE CHAUFFERIE"	
+Voie0_sts_read_err	%MW0.0.0.1.0	BOOL	"Echec lors de la lecture status de la voie"	
+Sd_wd_api	%MW61.8	BOOL	"Défaut watch dog API"	
+CV904_AIErr	%MW60.7	BOOL	"Défaut voie 6"	
+MW374_3	%MW374	ARRAY[0..2] OF INT	"Tableau de réception de la requête modbus lecture bits"	
+T_exchg_b12	%MW220	INT		
+T_exchg_b12_3	%MW220	ARRAY[0..2] OF INT		
+Exchg_tiw3_3	%MW143	INT		
+T_exchg_dw3	%MW132	INT	"Table d'échange API<-->API Sila résultat lecture double mots compteur calec"	
+T_exchg_b2	%MW121	INT	"Table d'échange API<-->API Sila résultat lecture bits compteur calec"	
+CV904_Out_Min	%MW16	INT	"Limite inferieure de la sortie"	
+sm_Temp_r2	%MW496	REAL	"animation supervision : T° retour compteur 2"	
+MW100	%MW100	INT		
+Voie0_adjust_in_progr	%MW0.0.0.0.2	BOOL	"Echange d'un réglage en cours"	
+Voie0_command_err	%MW0.0.0.1.1	BOOL	"Echec lors de l'envoi d'une commande sur la voie"	
+Sd_module0	%MW61.9	BOOL	"Défaut module 0"	
+Sd_fuite_eau_reseau_chaleur	%MW60.8	BOOL	"Défaut fuite reseau chaleur"	
+V_aux12	%MW386	INT	"Tableau de réception de la requête modbus lecture : volume auxiliaire 1"	
+T_exchg_dw32	%MW232	INT		
+T_exchg_b22	%MW221	INT		
+PDT901_Exchg	%MW144	INT		
+MW133	%MW133	INT	"Table d'échange API<-->API Sila résultat lecture double mots compteur calec"	
+T_exchg_b3	%MW122	INT	"Table d'échange API<-->API Sila résultat lecture bits compteur calec"	
+Voie0_adjust_err	%MW0.0.0.1.2	BOOL	"Echec lors d'un réglage de la voie"	
+CV904_Bump	%MW17.4	BOOL	"Fonction PID avec ou sans à coup (0=avec, 1= sans)"	
+T_exchg_b32	%MW222	INT		
+W_ack_def	%MW200	INT	"Tableau de mots écrit par API Sila(acquittement defauts)"	
+Exchg_iw3_5	%MW145	INT		
+T_exchg_dw4	%MW134	INT	"Table d'échange API<-->API Sila résultat lecture double mots compteur calec"	
+T_exchg_w1	%MW123	INT	"Table d'échange API<-->API Sila résultat lecture mots compteur calec"	
+T_exchg_w1_5	%MW123	ARRAY[0..4] OF INT		
+V_aux22	%MW388	INT	"Tableau de réception de la requête modbus lecture : volume auxiliaire 2"	
+P_instant2	%MW377	INT	"Tableau de réception de la requête modbus lecture : puissance active"	
+P_instant2_5	%MW377	ARRAY[0..4] OF INT	"Tableau de réception de la requête modbus lecture mots"	
+T_exchg_dw42	%MW234	INT		
+T_exchg_w12	%MW223	INT		
+T_exchg_w12_5	%MW223	ARRAY[0..4] OF INT		
+W_vie_tsx57	%MW201	INT	"Tableau de mots écrit par API Sila(mot de vie api vapeur)"	
+CV904_Exchg_AI	%MW146	INT		
+MW135	%MW135	INT	"Table d'échange API<-->API Sila résultat lecture double mots compteur calec"	
+T_exchg_w2	%MW124	INT	"Table d'échange API<-->API Sila résultat lecture mots compteur calec"	
+Var_switch	%MW90	INT	"Mot de sélection lecture modbus"	
+MW136	%MW136	INT		
+MW101_X0	%MW101.0	BOOL		
+Q_instant2	%MW378	INT	"Tableau de réception de la requête modbus lecture : puissance reactive"	
+T_exchg_w22	%MW224	INT		
+W_CV904_SP	%MW202	INT	"Tableau de mots écrit par API Sila(consigne regulation pression bypass pv9410)"	
+CV904_Exchg_AO	%MW147	INT		
+T_exchg_w3	%MW125	INT	"Table d'échange API<-->API Sila résultat lecture mots compteur calec"	
+Mask_cr_pb	%MW91	INT	"Résultat du masque point faible sur compte rendu Read_Var"	
+Temp_r	%MW80	INT	"Tableau de réception de la requête modbus lecture mots"	
+MW137	%MW137	INT		
+sm_P_instant1	%MW500	REAL	"animation supervision : puissance compteur 1"	
+MW101_X1	%MW101.1	BOOL		
+Voie0_internal_flt	%MW0.0.0.2.4	BOOL	"Défaut interne ou autotest de la voie"	
+Temp_a2	%MW379	INT	"Tableau de réception de la requête modbus lecture : temperature aller"	
+T_exchg_w32	%MW225	INT		
+W_CV904_Out_Man	%MW203	INT	"Tableau de mots écrit par API Sila(consigne manuelle ouverture vanne pv9410)"	
+Exchg_sd3	%MW148	INT	"Copie défauts carte d'entrées analogique module 3  API<-->API Sila"	
+Exchg_sd3_3	%MW148	ARRAY[0..2] OF INT		
+T_exchg_w4	%MW126	INT	"Table d'échange API<-->API Sila résultat lecture mots compteur calec"	
+Cr_cancel	%MW92	INT	"Compte rendu de la fonction Cancel"	
+MW81	%MW81	INT	"Tableau de réception de la requête modbus lecture mots"	
+R_var_activite	%MW70	INT	"Paramètres de gestion fonction Read_Var"	
+R_var_activite_4	%MW70	ARRAY[0..3] OF INT		
+MW138	%MW138	INT		
+Voie0_conf_flt	%MW0.0.0.2.5	BOOL	"Configuration matérielle et logicielle différente"	
+CV904_Inhib	%MW17.8	BOOL	"Inhib prise en compte du PID par dialogue opérateur"	
+T_exchg_w42	%MW226	INT		
+W_CV904_KP	%MW204	INT	"Tableau de mots écrit par API Sila(coefficient proportionnelle)"	
+Exchg_sd4	%MW149	INT	"Copie défauts carte de sortie analogique module 4  API<-->API Sila"	
+T_exchg_w5	%MW127	INT	"Table d'échange API<-->API Sila résultat lecture mots compteur calec"	
+Mask_num	%MW93	INT	"Mask du numéro d'opération Read_Var"	
+E_cumul	%MW82	INT	"Tableau de réception de la requête modbus lecture double mots"	
+E_cumul_8	%MW82	ARRAY[0..7] OF INT		
+R_var_cr	%MW71	INT	"Paramètres de gestion fonction Read_Var"	
+Defauts_iw	%MW60	INT	"Défauts de la carte d'entrées analogique"	
+Defauts_iw_10	%MW60	ARRAY[0..9] OF INT		
+Defauts_iw_3	%MW60	ARRAY[0..2] OF INT		
+sm_Q_instant1	%MW502	REAL	"animation supervision : energie compteur 1"	
+I0_MOD_ERR	%I0.0.MOD.ERR	BOOL		
+Voie0_communic_flt	%MW0.0.0.2.6	BOOL	"Défaut de communication avec automate"	
+CV904_Auto	%M0	EBOOL	"Bit auto/manu régulateur PID (0=manuel, 1=auto)"	
+T_exchg_w52	%MW227	INT		
+W_CV904_TI	%MW205	INT	"Tableau de mots écrit par API Sila(coefficient intégrale)"	
+Exchg_iw_fuite	%MW139	INT		
+T_exchg_dw1	%MW128	INT	"Table d'échange API<-->API Sila résultat lecture double mots compteur calec"	
+T_exchg_dw1_8	%MW128	ARRAY[0..7] OF INT		
+Save_w_vie	%MW94	INT	"Sauvegarde mot de vie"	
+MW83	%MW83	INT	"Tableau de réception de la requête modbus lecture double mots"	
+R_var_time_out	%MW72	INT	"Paramètres de gestion fonction Read_Var"	
+Defauts_ow	%MW61	INT	"Défauts de la carte de sorties analogique//WD API//Com"	
+CV904_PV	%MW7	INT	"Mesure position vanne (Ex PCV9410) (0 10000)"	
+Voie0_appli_flt	%MW0.0.0.2.7	BOOL	"Défaut applicatif"	
+Voie0_ch_error	%I0.0.0.ERR	BOOL	"Bit erreur de la voie"	
+B_init	%M1	EBOOL	"Bit initialisation API"	
+Sd_mbus	%MW62.0	BOOL	"Défaut requête modbus"	
+Exchg_iw372	%MW239	INT		
+T_exchg_dw12	%MW228	INT		
+T_exchg_dw12_8	%MW228	ARRAY[0..7] OF INT		
+W_CV904_TD	%MW206	INT	"Tableau de mots écrit par API Sila(coefficient derivée)"	
+MW129	%MW129	INT	"Table d'échange API<-->API Sila résultat lecture double mots compteur calec"	
+Mask_cr_pf	%MW95	INT	"Résultat du masque poids fort sur compte rendu Read_Var"	
+V_cumul	%MW84	INT	"Tableau de réception de la requête modbus lecture double mots"	
+R_var_long	%MW73	INT	"Paramètres de gestion fonction Read_Var"	
+Defauts_divers	%MW62	INT		
+MW51	%MW51	INT	"Fin table des paramètres de la fonction PID"	
+CV904_Out	%MW8	INT	"Valeur de sortie PID vanne (Ex PCV9410) (0 10000)"	
+MD128	%MW128	DINT		
+MW229	%MW229	INT		
+sm_Temp_a1	%MW504	REAL	"animation supervision : T° aller compteur 1"	
+B_ack	%M2	EBOOL	"Bit acquittement des défauts"	
+Sd_batterie_uc	%MW62.1	BOOL	"Défaut batterie UC"	
+Sd_module4	%MW61.0	BOOL	"Défaut module 4"	
+W_CV904_Auto	%MW207	INT	"Tableau de mots écrit par API Sila(mode du régulateur 1=auto,0=manu)"	
+MW85	%MW85	INT	"Tableau de réception de la requête modbus lecture double mots"	
+MW74	%MW74	INT	"Tableau de réception de la requête modbus lecture bit"	
+MW74_3	%MW74	ARRAY[0..2] OF INT		
+CV904_SP	%MW9	INT	"Consigne vanne (Ex PCV9410) (0 10000)"	
+CV904_SP_43	%MW9	ARRAY[0..42] OF INT		
+Oa4_MOD_ERR	%I0.4.MOD.ERR	BOOL		
+Voie0_reconf_err	%MW0.0.0.1.15	BOOL	"Echec lors d'une reconfiguration de la voie"	
+Voie0_exch_sts	%MW0.0.0.0	INT	"Status de gestion des échanges"	
+I_selec_repli	%I0.2.0	EBOOL	"Sélecteur marche 0=Normal/1=dégradée"	
+Mem_ack	%M3	EBOOL	"Bit mémorisation front acquittement des défauts"	
+Sd_w_vie	%MW62.2	BOOL	"Défaut mot de vie com"	
+CV904_AOErr	%MW61.1	BOOL	"Défaut voie 0"	
+Sd_module3	%MW60.0	BOOL	"Défaut module 3"	
+W_param_v_repli	%MW208	INT	"Tableau de mots écrit par API Sila(paramètre ouverture pv9410 en mode dégradé(repli))"	
+V_aux1	%MW86	INT	"Tableau de réception de la requête modbus lecture double mots"	
+MW75	%MW75	INT	"Tableau de réception de la requête modbus lecture bit"	
+sm_Temp_r1	%MW506	REAL	"animation supervision : T° retour compteur 1"	
+Oa4_0_ERR	%I0.4.0.ERR	BOOL		
+Ia3_1_ERR	%I0.3.1.ERR	BOOL		
+Voie0_reconf_in_progr	%MW0.0.0.0.15	BOOL	"Reconfiguration en cours"	
+Voie0_exch_err	%MW0.0.0.1	INT	"Status de compte rendu d'échange"	
+AI_XTCV906	%IW0.3.1.0	INT	"SILA Mesure position vanne Regulation Echangeur 2"	
+Top_sec	%M4	EBOOL	"Bit top seconde"	
+Sd_ia_3_0	%MW60.1	BOOL	"Défaut voie 0"	
+MW87	%MW87	INT	"Tableau de réception de la requête modbus lecture double mots"	
+MW76	%MW76	INT	"Tableau de réception de la requête modbus lecture bit"	
+CV904_Out_Man	%MW10	INT	"Valeur de la sortie en mode manuel (0 10000)"	
+sm_P_instant2	%MW490	REAL	"animation supervision : puissance compteur 2"	
+Ia3_2_ERR	%I0.3.2.ERR	BOOL		
+Voie0_ch_flt	%MW0.0.0.2	INT	"Défaut standard voie"	
+AI_R0S3C2	%IW0.3.2.0	INT	"Spare"	
+Mem_sec	%M5	EBOOL	"Bit mémoire top seconde"	
+Sd_ia_3_1	%MW60.2	BOOL	"Défaut voie 1"	
+Temp_r2	%MW380	INT	"Tableau de réception de la requête modbus lecture : temperature retour"	
+V_aux2	%MW88	INT	"Tableau de réception de la requête modbus lecture double mots"	
+P_instant	%MW77	INT	"Tableau de réception de la requête modbus lecture mots"	
+P_instant_5	%MW77	ARRAY[0..4] OF INT		
+CV904_KP	%MW11	INT	"Gain proportionnel"	
+Ia3_3_ERR	%I0.3.3.ERR	BOOL		
+AI_R0S3C3	%IW0.3.3.0	INT	"Spare"	
+Fm_cancel	%M6	EBOOL	"Bit top fonction cancel"	
+Sd_ia_3_2	%MW60.3	BOOL	"Défaut voie 2"	
+MW381	%MW381	INT	"Tableau de réception de la requête modbus lecture mots"	
+Excgh_sd0	%MW150	INT	"Copie défauts module 0  API<-->API Sila"	
+MW89	%MW89	INT	"Tableau de réception de la requête modbus lecture double mots"	
+Q_instant	%MW78	INT	"Tableau de réception de la requête modbus lecture mots"	
+CV904_TI	%MW12	INT	"Temps d'intégral"	
+sm_Q_instant2	%MW492	REAL	"animation supervision : energie compteur 2"	
+Ia3_4_ERR	%I0.3.4.ERR	BOOL		
+Ia3_MOD_ERR	%I0.3.MOD.ERR	BOOL		
+PDT901_AI	%IW0.3.4.0	INT	"Pression différentielle échangeur primaire (Ex Dpt9411)"	
+Mem_cancel	%M7	EBOOL	"Bit mémoire top fonction cancel"	
+Sd_ia_3_3	%MW60.4	BOOL	"Défaut voie 3"	
+E_cumul2	%MW382	INT	"Tableau de réception de la requête modbus lecture : energie cumulee"	
+E_cumul2_8	%MW382	ARRAY[0..7] OF INT		
+W_vie_tsx37	%MW151	INT	"Mot de vie tsx37"	
+Exchg_iw3_0	%MW140	INT		
+Temp_a	%MW79	INT	"Tableau de réception de la requête modbus lecture mots"	
+CV904_TD	%MW13	INT	"Temps de dérivée"	
+MW383	%MW383	INT		
+M8	%M8	EBOOL		
+Ia3_5_ERR	%I0.3.5.ERR	BOOL		
+AI_R0S3C5	%IW0.3.5.0	INT	"Spare"	
+PDT901_AIErr	%MW60.5	BOOL	"Défaut voie 4"	
+Exchg_iw3_1	%MW141	INT		
+T_exchg_dw2	%MW130	INT	"Table d'échange API<-->API Sila résultat lecture double mots compteur calec"	
+CV904_TS	%MW14	INT	"Temps d'échantillonnage fonction PID"	
+TM0		PL7_TON		(TB:=2,PT:=0)
+TM1		PL7_TON		(TB:=2,PT:=0)
+TM2		PL7_TON		(TB:=2,PT:=0)
+TM3		PL7_TON		(TB:=2,PT:=0)
+Ia3_0_ERR	%I0.3.0.ERR	BOOL		
+CV905_AI	%IW0.3.0.0	INT	"SILA Mesure position vanne Regulation Echangeur 1"	
+AI_R0S3C7	%IW0.3.7.0	INT	"Spare"	
+Sd_ia_3_7	%MW60.9	BOOL	"Défaut voie 7"	
+ad_mdbus		ADDM_TYPE		
+serie4	%ch0.0.0	T_COM_MB_BMX		
+T_exchg_b12_4	%MW220	ARRAY[0..2] OF INT		
+T_exchg_b12_5	%MW220	ARRAY[0..2] OF INT		
+T_exchg_b12_6	%MW220	ARRAY[0..2] OF INT		
+T_exchg_b12_7	%MW220	ARRAY[0..2] OF INT		
+T_exchg_b12_8	%MW220	ARRAY[0..2] OF INT		
+T_exchg_b12_9	%MW220	ARRAY[0..2] OF INT		
+T_exchg_b12_10	%MW220	ARRAY[0..2] OF INT		
+T_exchg_b12_11	%MW220	ARRAY[0..2] OF INT		
+T_exchg_b12_12	%MW220	ARRAY[0..2] OF INT		
+T_exchg_CPT2	%MW220	ARRAY[0..39] OF INT		
+T_exchg_CPT1	%MW120	ARRAY[0..39] OF INT		
+T_recu_de_vapeur	%MW300	ARRAY[0..9] OF INT	"Tableau de mots écrit par API Sila recu dans chaufferie"	
+truc		BOOL		
+CV904_T_regul	%MW200	ARRAY[0..9] OF INT	"Tableau de mots écrit par API Sila recu dans chaufferie"	
+MD230	%MW230	DINT	"VCUMUL2"	
+ADR_ECHG_1		ADDM_TYPE	"Adresse Echangeur 1"	
+ADR_ECHG_2		ADDM_TYPE	"Adresse Echangeur 2"	
+GES_LEC_ECHG_1		ARRAY[0..3] OF INT	"Gestion lecture Echangeur 1"	
+GES_LEC_ECHG_2		ARRAY[0..3] OF INT	"Gestion lecture Echangeur 2"	
+TAB_COM_ECHG1	%MW600	ARRAY[0..11] OF INT	"Table de communication Echangeur 1"	
+TAB_COM_ECHG2	%MW700	ARRAY[0..11] OF INT	"Table de communication Echangeur 2"	
+ECHG_1	%MW600	ECHANGEUR	"Echangeur 1"	
+ECHG_2	%MW700	ECHANGEUR	"Echangeur 2"	
+ECHANGEUR_1	%MW600	ECHANGEUR		
+ECHANGEUR_2	%MW700	ECHANGEUR		
+BIT_ZERO		BOOL	"Toujours à zéro"	
+MemFD_sec		BOOL	"Mémoire front descendant seconde"	
+FD_SEC		BOOL	"Front descendant seconde"	
+ECHANGEUR1_CPT_E	%MW128	DINT		
+ECHANGEUR2_CPT_E	%MW228	DINT		
+ECHANGEUR1_CPT_Q	%MW130	DINT		
+ECHANGEUR2_CPT_Q	%MW230	DINT		
+ECHANGEUR1_P	%MW120	DINT		
+TEST_ECHG_1_DINT	%MW120	DINT		
+TEST_ECHG_1_REAL	%MW120	REAL		
+TEST_P_REAL	%MW500	REAL		
+REAL_POUB		REAL		
+CALCUL_ECHG1_P		REAL		
+CALCUL_ECHG1_Q		REAL		
+CALCUL_ECHG1_TC		REAL		
+CALCUL_ECHG1_TF		REAL		
+CALCUL_ECHG2_P		REAL		
+CALCUL_ECHG2_Q		REAL		
+CALCUL_ECHG2_TC		REAL		
+CALCUL_ECHG2_TF		REAL		
+HEURE_API	%SW51	INT		
+MEMFM_CHGT_JOUR		EBOOL	"Mémoire Fronrt montant changement de jour"	
+FM_CHGT_JOUR		EBOOL	"Fronrt montant changement de jour"	
+DATE_MEM_CPT_E	%MW1400	ARRAY[0..99] OF INT	"Mémoire des date compteur d'énergie sur 100 jours"	
+DATE_MEM_CPT_Q	%MW1600	ARRAY[0..99] OF INT	"Mémoire des date compteur volume sur 100 jours"	
+MEM_CPT_E1	%MW1000	ARRAY[0..99] OF REAL	"Mémoire des compteur d'énergie sur 100 jours"	
+MEM_CPT_Q1	%MW1200	ARRAY[0..99] OF REAL	"Mémoire des compteur volume sur 100 jours"	
+ECHANGEUR1_CPT_E1		REAL	" compteur d'énergie J-1"	
+ECHANGEUR1_CPT_Q1		REAL	" compteur volume J-1"	
+ECHANGEUR1_CPT_E_J		REAL	" compteur d'énergie J"	
+ECHANGEUR1_CPT_Q_J		REAL	" compteur volume J"	
+MEM_CPT_Q2	%MW2000	ARRAY[0..99] OF REAL	"Mémoire des compteur volume sur 100 jours"	
+MEM_CPT_E2	%MW1800	ARRAY[0..99] OF REAL	"Mémoire des compteur d'énergie sur 100 jours"	
+TON_1		TON		
+TM4		PL7_TON		(PT:=60,TB:=8)
+IW_R0S5C0_ERR	%I0.5.0.ERR	BOOL		
+IW_R0S5C1_ERR	%I0.5.1.ERR	BOOL		
+IW_R0S5C2_ERR	%I0.5.2.ERR	BOOL		
+IW_R0S5C3_ERR	%I0.5.3.ERR	BOOL		
+IW_R0S5C4_ERR	%I0.5.4.ERR	BOOL		
+IW_R0S5C5_ERR	%I0.5.5.ERR	BOOL		
+IW_R0S5C6_ERR	%I0.5.6.ERR	BOOL		
+IW_R0S5C7_ERR	%I0.5.7.ERR	BOOL		
+IW_R0S5_MOD_ERR	%I0.5.MOD.ERR	BOOL		
+TT915_AI	%IW0.5.0.0	INT	"SILA Mesure Temperature Aller Echangeur 1"	
+TT916_AI	%IW0.5.1.0	INT	"SILA Mesure Temperature Retour Echangeur 1"	
+TT917_AI	%IW0.5.2.0	INT	"SILA Mesure Temperature Aller Echangeur 2"	
+TT918_AI	%IW0.5.3.0	INT	"SILA Mesure Temperature Retour Echangeur 2"	
+TT919_AI	%IW0.5.4.0	INT	"Client Mesure Temperature Aller Echangeur 1"	
+TT920_AI	%IW0.5.5.0	INT	"Client Mesure Temperature Retour Echangeur 1"	
+TT921_AI	%IW0.5.6.0	INT	"Client Mesure Temperature Aller Echangeur 2"	
+TT922_AI	%IW0.5.7.0	INT	"Client Mesure Temperature Retour Echangeur 2"	
+CV905_AO	%QW0.4.1.0	INT	"SILA vanne regulation Echangeur 1"	
+CV906_AO	%QW0.4.2.0	INT	"SILA vanne regulation Echangeur 2"	
+R0S4C3_AO	%QW0.4.3.0	INT	"Spare"	
+CV905_T_regul		ARRAY[0..9] OF INT		
+CV905_TS		INT		
+CV905_PV		INT		
+CV905_Out_Max		INT		
+CV905_Out_Min		INT		
+CV905_Bump		BOOL		
+CV905_Inhib		BOOL		
+CV905_Auto		EBOOL		
+W_CV905_Auto		INT		
+CV905_KP		INT		
+W_CV905_KP		INT		
+CV905_Out_Man		INT		
+W_CV905_Out_Man		INT		
+CV905_SP		INT		
+W_CV905_SP		INT		
+CV905_TD		INT		
+W_CV905_TD		INT		
+CV905_Out		INT		
+CV905_SP_43		ARRAY[0..42] OF INT		
+CV905_Exchg_AO		INT		
+CV905_TI		INT		
+W_CV905_TI		INT		
+CV905_Exchg_AI		INT		
+TT919_AIErr		BOOL		
+TT919_Exchg		INT		
+CV906_T_regul		ARRAY[0..9] OF INT		
+CV906_TS		INT		
+CV906_PV		INT		
+CV906_Out_Max		INT		
+CV906_Out_Min		INT		
+CV906_Bump		BOOL		
+CV906_Inhib		BOOL		
+CV906_Auto		EBOOL		
+W_CV906_Auto		INT		
+CV906_KP		INT		
+W_CV906_KP		INT		
+CV906_Out_Man		INT		
+W_CV906_Out_Man		INT		
+CV906_SP		INT		
+W_CV906_SP		INT		
+CV906_TD		INT		
+W_CV906_TD		INT		
+CV906_Out		INT		
+CV906_SP_43		ARRAY[0..42] OF INT		
+CV906_Exchg_AO		INT		
+CV906_TI		INT		
+W_CV906_TI		INT		
+CV906_Exchg_AI		INT		
+CV906_AI		INT		
